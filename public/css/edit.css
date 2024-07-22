@@ -1,0 +1,83 @@
+/* style formulaire */
+.formulaire {
+    width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #afecff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    float: left;
+   margin-bottom: 100px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+/* Style labels */
+.formulaire label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+/* style  inputs */
+.formulaire input,
+.formulaire select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style submit button */
+.formulaire input[type="submit"] {
+    background-color: #45a049;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+
+.formulaire input[type="submit"]:hover {
+    background-color:#ff8604 ;
+}
+
+/* animationss */
+.formulaire input,
+.formulaire select,
+.formulaire label,
+.formulaire input[type="submit"] {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* style header*/
+.client-heading {
+    text-align: left;
+    color: rgb(56, 68, 191);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.image-modif {
+    text-align: right;
+}
+
+.image-modif img {
+    max-width: 700px;
+    height: auto;
+    margin-top: 50px;;
+}
